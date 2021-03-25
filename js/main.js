@@ -221,14 +221,14 @@ var educationTemplate="";
 		
 		
 					$("#resume_details").append(workHTMLTemplate);
-					var educationHeading = `<li class="timeline-heading text-center animate-box" ">
+					var educationHeading = `<li class="timeline-heading text-center animate-box" >
 					<div><h3>Education</h3></div>
 				</li>`
 				$("#resume_details").append(educationHeading);
 					
 					for(var edu=0;edu<educationInfo.length;edu++)
 					{
-						educationTemplate+=`<li class="timeline-inverted animate-box >
+						educationTemplate+=`<li class="timeline-inverted animate-box" >
 						<div class="timeline-badge"><i class="icon-graduation-cap"></i></div>
 						<div class="timeline-panel">
 							<div class="timeline-heading">
